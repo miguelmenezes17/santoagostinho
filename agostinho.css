@@ -1,0 +1,146 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Glass+Antiqua&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Radley:ital@0;1&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Radley:ital@0;1&display=swap');
+
+:root {
+    --cor1: #dbd6c7c9;
+    --cor2: #D9A036;
+    --cor3: #a39170;
+    --cor4: #734002;
+    --cor5: #401E01;
+    --cor6: #9e8b7b;
+}
+
+body {
+    background-color: var(--cor3);
+}
+
+header {
+    background-image: linear-gradient(to bottom, var(--cor4), transparent);
+    padding: 15px;
+    margin: -8px -8px 0.5px -8px;
+}
+
+header h1 {
+    text-align: center;
+    font-family: 'Radley';
+    font-size: 2.5em;
+    font-weight: 800;
+    margin: 15px 15px 15px 15px;
+    font-family: "Glass Antiqua";
+    text-shadow: 2px 6px 5px rgba(0, 0, 0, 0.418);
+    background-color: #927f5a34;
+    border: 2px solid rgba(0, 0, 0, 0.336);
+    border-radius: 16px;
+    padding: 6px;
+}
+
+header nav {
+    text-align: left;
+    max-width: 180px;
+    min-width: 120px;
+    margin-top: 20px;
+    margin-bottom: 2px;
+    padding: 5.5px;
+    background-color: rgba(61, 40, 17, 0.164);
+    border-radius: 15px;
+}
+header a {
+    background-color: #73400241;
+    color: white;
+    padding: 12px;
+    margin: 12px;
+    line-height: 3.2;
+    border-radius: 14px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+header a:hover {
+    background-color: #73400293;
+    color: rgb(5, 5, 5);
+    transition: 0.5s;
+}
+
+main {
+    background-color: var(--cor1);
+    max-width: 650px;
+    min-width: 210px;
+    margin: auto;
+    padding: 12px;
+    border-radius: 15px;
+}
+
+main h2 {
+    text-align: center;
+    font-family: 'Fredericka the Great';
+}
+
+main > article > div.agost01 {
+    text-align: center;
+    background-color: var(--cor4);
+}
+
+img.agost01 {
+    margin-bottom: -4px;
+    width: 100%;
+    border: 2px groove var(--cor3);
+}
+
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-indent: 12px;
+}
+
+div.vd01 {
+    background-color: #9e8b7b;
+    margin: 0px -12px 30px -12px;
+    padding: 12px;
+    padding-bottom: 56.5%;
+
+    position: relative;
+}
+
+div.vd01 > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+
+}
+
+div.vd02 {
+    background-color: #9e8b7b;
+    margin: 0px -12px 30px -12px;
+    padding: 12px;
+    padding-bottom: 56.6%;
+    position: relative;
+}
+
+div.vd02 > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+div.vd03 {
+    background-color: #9e8b7b;
+    margin: 0px -12px 30px -12px;
+    padding: 12px;
+    padding-bottom: 56.6%;
+    position: relative;
+}
+
+div.vd03 > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
